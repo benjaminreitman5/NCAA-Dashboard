@@ -1,0 +1,34 @@
+body { background:#f4f7fb; }
+.app-title { font-weight:800; letter-spacing:-.02em; }
+.sidebar-heading { font-size:1.55rem; font-weight:800; color:#00274C; margin-bottom:1rem; }
+.page-intro { margin:.35rem 0 1.35rem; }
+.page-intro h1 { color:#00274C; font-size:2rem; font-weight:800; margin-bottom:.25rem; }
+.page-intro p { color:#64748b; margin:0; }
+.panel-card,.card { border:1px solid #dbe3ee; border-radius:18px; box-shadow:0 5px 18px rgba(15,23,42,.055); overflow:hidden; }
+.card-header { background:#fff; color:#00274C; font-weight:750; border-bottom:1px solid #e5eaf1; }
+.kpi-card { background:#fff; border:1px solid #dbe3ee; border-top:6px solid #00274C; border-radius:18px; padding:22px 24px; min-height:130px; box-shadow:0 5px 18px rgba(15,23,42,.055); }
+.kpi-label { color:#64748b; font-weight:650; font-size:.98rem; }
+.kpi-number { color:#00274C; font-size:3rem; font-weight:850; line-height:1.05; margin-top:.45rem; }
+.small-kpi { font-size:2.1rem; padding-top:.45rem; }
+.profile-hero { --school-color:#00274C; display:grid; grid-template-columns:1.65fr repeat(3,minmax(150px,.75fr)); gap:18px; background:#fff; border:1px solid #dbe3ee; border-left:12px solid var(--school-color); border-radius:20px; padding:26px; margin-bottom:1rem; box-shadow:0 5px 18px rgba(15,23,42,.055); }
+.profile-identity { display:flex; flex-direction:column; justify-content:center; }
+.profile-school { font-size:2.35rem; font-weight:850; color:#111827; line-height:1.1; }
+.profile-subtitle { color:#64748b; margin-top:.45rem; }
+.profile-total { display:inline-block; width:max-content; background:var(--school-color); color:#fff; border-radius:999px; padding:8px 14px; font-weight:750; margin-top:1rem; }
+.profile-stat { background:#f8fafc; border:1px solid #e4e9f0; border-radius:15px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:18px; }
+.profile-stat span { color:#64748b; font-size:.9rem; font-weight:650; }
+.profile-stat strong { color:#00274C; font-size:1.65rem; line-height:1.15; margin-top:.45rem; }
+.compare-school-card { --school-color:#00274C; background:#fff; border:1px solid #dbe3ee; border-top:9px solid var(--school-color); border-radius:20px; padding:28px; min-height:245px; box-shadow:0 5px 18px rgba(15,23,42,.055); }
+.compare-school-card h2 { font-size:2rem; font-weight:850; color:#111827; }
+.compare-big-number { font-size:4.5rem; font-weight:900; color:#00274C; line-height:1; margin-top:1rem; }
+.compare-caption { font-weight:650; color:#374151; }
+.compare-detail { color:#64748b; font-weight:600; margin-top:1rem; }
+.compare-vs { min-height:245px; background:#00274C; color:#fff; border-radius:20px; display:flex; flex-direction:column; justify-content:center; align-items:center; box-shadow:0 8px 24px rgba(0,39,76,.18); }
+.vs-text { font-size:3.5rem; font-weight:900; }
+.shared-text { font-weight:650; text-align:center; }
+.table-panel .card-body { overflow:visible!important; }
+.dataTables_wrapper { width:100%; }
+.dataTables_scrollBody { border-bottom:1px solid #dbe3ee!important; }
+.leaflet-container { border-radius:16px; }
+@media(max-width:1100px){ .profile-hero{grid-template-columns:1fr 1fr}.profile-identity{grid-column:1/-1} }
+@media(max-width:800px){ .profile-hero{grid-template-columns:1fr}.compare-school-card,.compare-vs{min-height:180px} }
